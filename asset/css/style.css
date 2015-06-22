@@ -1,0 +1,153 @@
+@font-face {
+	font-family: 'gothambold1';
+	src: url('../fonts/gothambold1/gothambold1.eot');
+	src: local('gothambold1'), url('../fonts/gothambold1/gothambold1.woff') format('woff'), url('../fonts/gothambold1/gothambold1.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_5903">Text with this font applied</p> */
+@font-face {
+	font-family: 'GothamBook';
+	src: url('../fonts/GothamBook/GothamBook.eot');
+	src: local('GothamBook'), url('../fonts/GothamBook/GothamBook.woff') format('woff'), url('../fonts/GothamBook/GothamBook.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_10146">Text with this font applied</p> */
+@font-face {
+	font-family: 'GothamLight';
+	src: url('../fonts/GothamBook/GothamLight.eot');
+	src: local('GothamLight'), url('../fonts/GothamBook/GothamLight.woff') format('woff'), url('../fonts/GothamBook/GothamLight.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'NGage';
+	src: url('../fonts/NGage/NGage.ttf');
+	src: local('NGage'), url('../fonts/NGage/NGage.woff') format('woff'), url('../fonts/NGage/NGage.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url('../fonts/OpenSans-Light/OpenSans-Light.ttf');
+	src: local('OpenSans-Light'), url('../fonts/OpenSans-Light/OpenSans-Light.woff') format('woff'), url('../fonts/OpenSans-Light/OpenSans-Light.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_4008">Text with this font applied</p> */
+
+/* Font downloaded from FontsForWeb.com */
+
+body{
+	font-family: 'GothamBook';
+	background: linear-gradient(#2496f3, #114ecc);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+a:hover, a:focus{
+	text-decoration: none;
+}
+header{
+	text-align: center;
+	padding: 30px 0px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+header img{width: 75px;}
+header h2{text-transform: uppercase; color: #fff; font-size: 20px; letter-spacing: 1px;}
+header p{text-transform: capitalize; color: #fff; font-size: 14px; font-family: "OpenSans-Light"}
+
+#waktumundur{
+}
+
+.countdown{
+	width: 227px;
+	height: 227px;
+	margin: 20px auto;
+	padding: 100px 42px;
+	background-image: url("../images/CounterPage.png");
+	background-repeat: no-repeat;
+	background-position: center center; 
+	text-align: center;
+}
+.countdown .days{
+	float: left;
+	font-family: 'NGage';
+	font-size: 45px;
+	width: 105px;
+	margin: 0px;
+	color: #fff;
+	letter-spacing: 3px;
+	line-height: 25px;
+}
+.countdown .daysleft{
+	width: 35px;
+	float: left;
+	font-family: 'OpenSans-Light';
+	font-size: 14px;
+	margin: 0px;
+	color: #fff;
+	letter-spacing: 1px;
+	line-height: 16px;
+	text-align: left;
+}
+.countdown .timeleft{
+	font-family: 'GothamLight';
+	font-size: 9.4px;
+	margin: 0px;
+	color: #fff;
+}
+.countdown .timeleft .sec{
+	font-size: 12px;
+	color: #fff;
+	font-weight: bold;
+}
+.countdown .box{
+		border-bottom: solid 1px #fff;
+		float: left;
+		padding-bottom: 5px;
+}
+
+#info{
+        margin-top: 60px;
+        float: left;
+        border: solid 1px #fff;
+        padding: 25px;
+}
+
+#info h1{
+	margin: 0px;
+	display: block;
+	font-family: 'GothamBook';
+	font-size: 18px;
+	color: #fff;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	border-bottom: solid 1px #fff;
+	text-transform: uppercase;
+}
+
+#info a{
+	opacity: 0.5;
+	font-family: 'OpenSans-Light';
+	font-size: 12px;
+	color: #fff;
+	line-height: 16px;
+	margin: 0px;
+	text-decoration: none;
+	-webkit-transition:all 0.4s ease-in-out;
+	transition:all 0.3s ease-in-out;
+}
+#info a:hover{
+	opacity: 1;
+	-webkit-transition:all 0.2s ease-in-out;
+	transition:all 0.3s ease-in-out;
+}
+
+footer{
+	text-align: center;
+	margin-top: 30px;
+	padding: 5px 0px;
+}
+
+.footer{
+	font-family: "OpenSans-Light";
+	font-size: 12px;
+	margin: 0px;
+	color: #fff;
+}
+.footer a{color: #fff}
+.footer a:hover{color: #fd7817}
