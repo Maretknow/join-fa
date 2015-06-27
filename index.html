@@ -101,8 +101,8 @@ $(window).load(function() { $(".preload-wrapper").fadeOut("slow"); })
             seconds_left = seconds_left % 3600;     
             minutes = parseInt(seconds_left / 60);
             seconds = parseInt(seconds_left % 60);
-          countdown.innerHTML = "<div class='box'><span class=\'days\'>" +days+ "</span>" + "<span class=\'daysleft\'>Days Left</span></div>" + 
-                                 "<span class=\'timeleft\'>" +hours+ " Hours : " +minutes+ " Minutes : </span>" + 
+          countdown.innerHTML = "<div class='box'><span class=\'days\'>" +days+ "</span>" + "<span class=\'daysleft\'>Days Left</span></div>" +
+                                 "<span class=\'timeleft\'>" +hours+ " Hours : " +minutes+ " Minutes : </span>" +
                                  "<span class=\'timeleft\'> <a class='sec'>" +seconds+ "</a> Sec</span>";
         }, 1000);
 
